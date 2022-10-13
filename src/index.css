@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#Search::-webkit-search-cancel-button{
+    border: 5px solid black;
+}
+.button-style{
+     @apply rounded-2xl w-2/12 bg-yellow-300 hover:bg-yellow-500 text-lg font-semibold ml-4 min-w-max p-2
+}
